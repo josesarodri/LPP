@@ -1,0 +1,50 @@
+entero e
+inicio
+	escriba "Verificacion de la escala de edades"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "Ingrese su edad: "
+	lea e
+	si (e>90)entonces
+		llamar nueva_linea
+		escriba "Se considera anciano"
+	sino 
+		si (e>65)y(e<=90) entonces
+			llamar nueva_linea
+			escriba "Se considera de la tercera edad"
+		sino
+			si (e>40)y(e<=65) entonces
+				llamar nueva_linea
+				escriba "Se considera adulto mayor"
+			sino
+				si (e>17)y(e<=40) entonces
+					llamar nueva_linea
+					escriba "Se considera adulto"
+				sino
+					si (e>15)y(e<=17) entonces
+						llamar nueva_linea
+						escriba "Se considera joven"
+					sino
+						si (e>10)y(e<=15) entonces
+							llamar nueva_linea
+							escriba "Se considera adolescente"
+						sino
+							si (e>1)y(e<=10) entonces
+								llamar nueva_linea
+								escriba "Se considera niño"
+							sino
+								si (e<0)entonces
+									llamar nueva_linea
+									escriba "Edad no valida"
+								sino
+									llamar nueva_linea
+									escriba "Se considera bebe"
+								fin si
+							fin si
+						fin si
+					fin si
+				fin si
+			fin si
+		fin si
+	fin si
+fin

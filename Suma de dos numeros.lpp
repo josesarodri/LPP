@@ -1,0 +1,9 @@
+real A,M,V
+inicio
+	escriba "Sumando dos numeros"
+	A <- 25
+	M <- 15
+	V <- A+M
+	escriba "La suma es:  "
+	escriba V
+fin
