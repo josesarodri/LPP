@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+44
+'sumando dos numeros ingresados por teclado'
+4
+1
+26
+'ingrese el primer numero'
+5
+1
+1
+a
+4
+1
+27
+'ingrese el segundo numero'
+5
+1
+1
+b
+6
+1
+1
+c
+3
+a+b
+4
+1
+135
+'la suma de            '  ,      a        ,          '   mas            '        ,       b       ,       '   es:        '        ,    c
+4
+1
+91
+' la suma de a que es:  ',   a  , '  mas b que es:  '     ,   b    ,   '   es:   '   ,   c 
+1
