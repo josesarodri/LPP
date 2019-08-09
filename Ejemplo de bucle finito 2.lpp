@@ -1,0 +1,9 @@
+entero numero
+	inicio
+		numero<-8
+		mientras (numero<10) haga
+			escriba numero
+			Llamar Nueva_linea
+			lea numero
+		fin mientras
+	fin
