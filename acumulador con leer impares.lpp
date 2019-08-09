@@ -1,0 +1,19 @@
+entero numero
+entero suma
+
+inicio
+	suma<-0
+	numero<-1
+		
+	mientras (numero<=20) haga
+	 escriba "el numero es:", numero
+	 suma<-suma+numero
+	 numero<-numero+2
+	 llamar obtener_caracter
+	  llamar nueva_linea
+	 escriba "la suma es:", suma
+	llamar nueva_linea
+	fin mientras 
+ escriba"la suma total es:", suma
+
+fin
