@@ -1,0 +1,18 @@
+entero numero
+
+	inicio 
+		escriba "ingrese una opcion del menu"
+		Llamar Nueva_linea
+		escriba "Digite 1 para suma: "
+		Llamar Nueva_linea
+		escriba "Digite 2 para resta: "
+		Llamar Nueva_linea
+		escriba "Cualquier otro numero termina"
+		Llamar Nueva_linea
+		Lea numero
+			caso numero
+				1: escriba "Suma"
+				2: escriba "Resta"
+				sino: escriba "Numero invalido"
+			Fin caso
+	fin  
