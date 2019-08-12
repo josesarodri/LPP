@@ -1,0 +1,21 @@
+entero numero
+entero suma
+inicio
+ suma   <-0
+ numero <-0
+    Escriba "Digite un Numero para Variable suma: "
+    Lea suma
+    Llamar Nueva_linea
+    Escriba "Digite un Numero para Variable numero: "
+    Lea numero
+ 	mientras (numero<=10) haga
+ 		escriba "El numero va en: ", numero
+ 		suma<-suma+numero
+ 		numero<-numero+1
+ 		Llamar Obtener_caracter
+ 		Llamar Nueva_linea
+ 		escriba "La suma va en: ", suma
+ 		Llamar Nueva_linea		
+ 	Fin mientras
+ 	escriba suma
+fin

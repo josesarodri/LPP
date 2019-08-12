@@ -1,0 +1,15 @@
+entero numero
+entero suma
+inicio
+ suma   <-0
+ numero <-1
+ 	mientras (numero<=10) haga
+ 		escriba numero
+ 		suma<-suma+numero
+ 		numero<-numero+1
+ 		Llamar Nueva_linea
+ 		escriba suma
+ 		Llamar Nueva_linea		
+ 	Fin mientras
+ 	escriba suma
+fin
