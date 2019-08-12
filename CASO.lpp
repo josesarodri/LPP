@@ -1,0 +1,29 @@
+Entero Numero
+
+Inicio 
+
+	Escriba "Ingrese una opcion del menu"
+	
+	Llamar nueva_linea
+	
+	Escriba "Dijite 1 para suma"
+	
+	Llamar nueva_linea
+	
+	Escriba "Dijite 2 para resta"
+	
+	Llamar nueva_linea
+	
+	Escriba "Cualquier otro numero termina"
+	
+	Llamar nueva_linea
+	
+	Lea numero
+	
+	Caso Numero
+		1: Escriba "Suma"
+		2: Escriba "resta"
+		sino: Escriba "Numero invalido"
+	Fin Caso
+	
+Fin
