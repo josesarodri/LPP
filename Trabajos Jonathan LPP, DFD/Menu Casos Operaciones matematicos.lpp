@@ -1,0 +1,118 @@
+real A,B,CA
+caracter C
+entero opcion2, base, h, Area, lado, radio, cuadrado, circulo
+Inicio
+    //repita
+	escriba "ingrese un caracter del menu"
+	Llamar nueva_linea
+	escriba "S para la suma"
+	Llamar nueva_linea
+	escriba "R para la Resta"
+	Llamar nueva_linea
+	escriba "M para la multiplicar"
+	Llamar nueva_linea
+	escriba "D para la dividir"
+	Llamar nueva_linea
+	escriba "P para el area"
+	Llamar nueva_linea
+	escriba "Caracter distinto a R o S o M o D o P para terminar"
+	Llamar nueva_linea
+	
+		Lea C
+		//Funciones del menu	
+			Caso C
+		's','S','+':escriba "Vamos a la suma"
+				    llamar nueva_linea
+				    escriba "Ingrese el primer numero"
+				    llamar nueva_linea
+				    lea A
+				    llamar nueva_linea
+				    escriba "ingrese el segundo numero"
+				    llamar nueva_linea
+				    lea B
+				    llamar nueva_linea
+				    CA <- A+B
+				    escriba "la suma es:",CA
+		'r','R','-':escriba "vamos a restas"
+				    llamar nueva_linea
+				    escriba "Ingrese el primer numero"
+				    llamar nueva_linea
+				    lea A
+				    llamar nueva_linea
+				    escriba "ingrese el segundo numero"
+				    llamar nueva_linea
+				    lea B
+				    llamar nueva_linea
+				    CA <- A-B
+				    escriba "la resta es:",CA
+		'm','M','*':escriba "vamos a restas"
+				    llamar nueva_linea
+				    escriba "Ingrese el primer numero"
+				    llamar nueva_linea
+				    lea A
+				    llamar nueva_linea
+				    escriba "ingrese el segundo numero"
+				    llamar nueva_linea
+				    lea B
+				    llamar nueva_linea
+				    CA <- A*B
+				    escriba "la multiplicacion es:",CA
+		'd','D','/':escriba "vamos a restas"
+				    llamar nueva_linea
+				    escriba "Ingrese el primer numero"
+				    llamar nueva_linea
+				    lea A
+				    llamar nueva_linea
+				    escriba "ingrese el segundo numero"
+				    llamar nueva_linea
+				    lea B
+				    llamar nueva_linea
+				    CA <- A/B
+				    escriba "la divicion es:",CA
+	 		'p','P':escriba "digite opcion a seleccionar"
+	 		        llamar nueva_linea
+	 		        escriba "1 para area triangulo"
+	 		        llamar nueva_linea
+	 		        escriba "50 para area cuadrado"
+	 		        llamar nueva_linea
+	 		        escriba "8 para area circulo"
+	 		        llamar nueva_linea
+	 		        
+	 		        lea opcion2
+	 		        llamar nueva_linea
+	 		        
+	 		        	caso opcion2
+	 		        	1:escriba "ingresar el numero para la base: "
+	 		        	      llamar nueva_linea
+	 		        		  lea base
+	 		        		  llamar nueva_linea
+	 		        		  escriba "Ingrese el valor de la altura: "
+	 		        		  llamar nueva_linea
+	 		        		  lea h
+	 		        		  area <- (base*h)/2
+	 		        		  llamar nueva_linea
+	 		        		  escriba "El resultado es:",area
+	 		        		  
+   	 	            	50:escriba "ingresar el valor lado: "
+   	 	            	      llamar nueva_linea
+	 		        		  lea lado
+	 		        		  cuadrado <- lado^2
+	 		        		  llamar nueva_linea
+	 		        		  escriba "El resultado es: ",cuadrado
+	 		        		  
+	 	   	        	8:escriba "ingresar valor del radio del circulo: "
+	 	   	        	      llamar nueva_linea
+	 		        		  lea radio
+	 		        		  llamar nueva_linea
+	 		        	      circulo <- radio*3.1416
+	 		        		  llamar nueva_linea
+	 		        		  escriba "El resultado es: ",circulo
+	 		        	Sino:
+			        escriba "opcion invalida" 
+	 		      fin caso	
+			    Sino:
+			        escriba "opcion invalida"
+			 
+			 Fin Caso
+			
+	fin		 
