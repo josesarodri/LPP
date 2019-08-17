@@ -13,6 +13,6 @@ entero numero
 			caso numero
 				1: escriba "Suma"
 				2: escriba "Resta"
-				sino: escriba "Numero invalido"
+				sino: escriba "no existe nada"
 			Fin caso
 	fin  
