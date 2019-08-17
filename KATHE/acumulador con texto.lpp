@@ -4,13 +4,13 @@ inicio
 	suma<-0
 	numero<-1
 	mientras (numero<=10) haga
-	 escriba "el numero es:", numero
+	 escriba "el numero es: ", numero
 	 suma<-suma+numero
 	 numero<-numero+1
 	 llamar nueva_linea
-	 escriba "la suma es:", suma
+	 escriba "la suma es: ", suma
 	llamar nueva_linea
 	fin mientras 
- escriba"la suma total es:", suma
+ escriba"la suma total es: ", suma
 
 fin
