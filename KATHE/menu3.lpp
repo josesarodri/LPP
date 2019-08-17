@@ -21,7 +21,7 @@ Inicio
 	lea c
 	
 		caso c
-	's', 'S':escriba "vamos a la suma"
+'+','s', 'S':escriba "vamos a la suma"
 			llamar nueva_linea
 			
 			escriba "ingrese primer numero"
@@ -42,7 +42,7 @@ Inicio
 			escriba "la suma es:", ca
 			llamar nueva_linea
 			
-	'r','R':escriba "vamos a restar"
+'-','r','R':escriba "vamos a restar"
 			llamar nueva_linea
 			
 			escriba "ingrese primer numero"
