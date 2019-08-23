@@ -9,6 +9,6 @@ inicio
 	 numero<-numero+1
 	llamar nueva_linea
 	fin mientras 
- escriba suma
-
+	llamar nueva_linea
+ escriba "El resultado de la suma es: ", suma
 fin
