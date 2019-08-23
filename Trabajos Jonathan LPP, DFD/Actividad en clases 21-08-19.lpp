@@ -1,0 +1,9 @@
+entero n
+caracter x
+
+	inicio
+		n <-92
+		x <-car(n)
+		escriba "El caracter ascii de: ",n," es: ",x	
+	fin
+		

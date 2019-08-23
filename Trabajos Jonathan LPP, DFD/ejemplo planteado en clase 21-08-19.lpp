@@ -1,0 +1,12 @@
+entero n
+caracter x
+inicio
+	n <-0
+	
+	  	para n <-0 hasta 255 haga
+	  	    x <-car(n)
+			escriba "El caracter ascii de ",n," es: ",x
+  			llamar nueva_linea
+  		/*	Llamar Obtener_caracter  */
+  			fin para
+fin
