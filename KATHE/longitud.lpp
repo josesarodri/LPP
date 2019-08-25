@@ -1,0 +1,7 @@
+ entero n
+ cadena [15]x
+inicio 
+	x<- "victor peralta"
+	n<- longitud (x)
+	escriba "la longitud en caracteres de",      x,      "es:",   n
+fin

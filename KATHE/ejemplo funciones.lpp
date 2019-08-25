@@ -1,0 +1,34 @@
+entero n
+caracter x
+
+inicio 
+	n<-92	
+	x<- car (n)
+	escriba "el caracter ascii de",  n,  "es:", x
+fin
+
+ entero n
+ caracter x
+inicio
+	x<-'@'
+	n<-valor_Ascii(x)
+	escriba "el caracter ascii de", x, "es:", n
+fin
+
+ entero n
+ cadena [15]x
+inicio 
+	x<- "victor peralta"
+	n<- longitud (x)
+	escriba "la longitud en caracteres de", x, "es:", x
+fin
+
+ real r
+inicio 
+ llamar iniciar_alatorio()
+	repita 
+	 r<-aleatorio()*10
+	 escriba "el numero generado es:", r
+	 llamar nueva_linea
+	hasta r=0
+fin	
