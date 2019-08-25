@@ -1,0 +1,7 @@
+entero n
+caracter x
+	inicio
+		x <-'@'
+		n <-valor_ascii(x)
+		escriba "El caracter ascii de",x,"es:",n
+	fin

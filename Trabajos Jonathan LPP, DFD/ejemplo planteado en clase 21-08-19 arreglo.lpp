@@ -1,0 +1,20 @@
+arreglo [9] de cadena [18] cifra
+entero n
+	inicio
+		cifra[1]<-"8"
+		cifra[3]<-"7"
+		cifra[5]<-"1"
+		cifra[7]<-"6tumami"
+		cifra[2]<-"30"
+		cifra[4]<-"24"
+		cifra[6]<-"0"
+		cifra[8]<-"5"
+		cifra[9]<-"estardeyaparajugar"
+			para n <- 1 hasta 9 haga
+			    escriba "Digite la cifra ha almacenar: "
+				lea cifra[n]
+				llamar nueva_linea
+				escriba "La cifra almacenada es: ",cifra[n]
+				llamar nueva_linea
+			fin para
+	fin
