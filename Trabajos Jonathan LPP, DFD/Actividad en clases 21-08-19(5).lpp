@@ -9,5 +9,5 @@ entero nota,s
 					lea respuesta
 				hasta (respuesta='S')o(Respuesta='N')
 		hasta (respuesta = 'N')
-			escriba "Que nota!"
+			escriba "Que nota"
 	fin
